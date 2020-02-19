@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flParsingContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/beige"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etParsingUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/shape_white_round_16"
+        android:hint="@string/url"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnParse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/selector_red_round_16"
+        android:paddingLeft="80dp"
+        android:paddingTop="4dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="4dp"
+        android:text="@string/parse"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

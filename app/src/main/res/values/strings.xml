@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageParsing</string>
+
+    <string name="url">url</string>
+    <string name="parse">parse</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="something_went_wrong">Что-то пошло не так</string>
+</resources>
